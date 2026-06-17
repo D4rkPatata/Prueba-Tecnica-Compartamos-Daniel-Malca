@@ -4,10 +4,7 @@ from datetime import datetime
 import os
 
 
-PROJECT_ID  = "prueba-tecnica-compartamos"
-BUCKET_NAME = "compartamos-bucket"
-DATASET_RAW = "raw"
-DATA_DIR    = "data_raw"
+from config import PROJECT_ID, BUCKET_NAME, DATASET_RAW, DATA_DIR
 
 # Primary keys de cada tabla para el MERGE
 PRIMARY_KEYS = {

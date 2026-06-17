@@ -14,9 +14,9 @@ from google.cloud import bigquery
 from datetime import datetime
 
 
-PROJECT_ID        = "prueba-tecnica-compartamos"
-DATASET_ANALYTICS = "analytics"
-SQL_DIR           = Path(__file__).resolve().parent.parent / "sql" / "analytics"
+from config import PROJECT_ID, DATASET_ANALYTICS
+
+SQL_DIR = Path(__file__).resolve().parent.parent / "sql" / "analytics"
 
 # Orden de ejecución: dimensiones primero, luego el tablón de hechos
 # (fact_venta hace JOIN con products, así que las dims van antes).

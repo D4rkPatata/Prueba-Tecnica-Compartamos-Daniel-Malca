@@ -36,7 +36,7 @@
 -- payment_method        STRING     Método de pago estandarizado.
 -- analytics_updated_at  TIMESTAMP  Marca de tiempo de la carga analytics.
 -- =====================================================================
-CREATE OR REPLACE TABLE `prueba-tecnica-compartamos.analytics.fact_venta` AS
+CREATE OR REPLACE TABLE `analytics.fact_venta` AS
 SELECT
     o.order_id,
     o.customer_id,
@@ -60,5 +60,5 @@ SELECT
     o.status,
     o.payment_method,
     CURRENT_TIMESTAMP() AS analytics_updated_at
-FROM `prueba-tecnica-compartamos.stage.orders_stage`   o
-LEFT JOIN `prueba-tecnica-compartamos.stage.products_stage` p USING (product_id);
+FROM `stage.orders_stage`   o
+LEFT JOIN `stage.products_stage` p USING (product_id);

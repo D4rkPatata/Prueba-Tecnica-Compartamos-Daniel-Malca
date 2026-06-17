@@ -2,7 +2,7 @@
 -- VW_REPORTE_VENTAS   
 -- Vista de looker con toda la información de ventas, clientes y productos.
 -- =====================================================================
-CREATE OR REPLACE VIEW `prueba-tecnica-compartamos.analytics.vw_reporte_ventas` AS
+CREATE OR REPLACE VIEW `analytics.vw_reporte_ventas` AS
 SELECT
     f.order_id,
     f.order_date,
@@ -28,6 +28,6 @@ SELECT
     -- Atributos de pedido
     f.status,
     f.payment_method
-FROM `prueba-tecnica-compartamos.analytics.fact_venta`     f
-LEFT JOIN `prueba-tecnica-compartamos.analytics.dim_producto` pr USING (product_id)
-LEFT JOIN `prueba-tecnica-compartamos.analytics.dim_cliente`  c  USING (customer_id);
+FROM `analytics.fact_venta`     f
+LEFT JOIN `analytics.dim_producto` pr USING (product_id)
+LEFT JOIN `analytics.dim_cliente`  c  USING (customer_id);

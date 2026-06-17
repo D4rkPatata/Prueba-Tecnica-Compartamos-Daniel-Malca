@@ -5,9 +5,7 @@ from google.cloud import bigquery
 from datetime import datetime
 
 
-PROJECT_ID    = "prueba-tecnica-compartamos"
-DATASET_RAW   = "raw"
-DATASET_STAGE = "stage"
+from config import PROJECT_ID, DATASET_RAW, DATASET_STAGE
 
 # Clave primaria de cada tabla -> usada por el MERGE para deduplicar/upsert
 PRIMARY_KEYS = {

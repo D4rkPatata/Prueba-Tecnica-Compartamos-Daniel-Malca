@@ -18,7 +18,7 @@
 -- registration_date     DATE       Fecha de registro del cliente.
 -- analytics_updated_at  TIMESTAMP  Marca de tiempo de la carga analytics.
 -- =====================================================================
-CREATE OR REPLACE TABLE `prueba-tecnica-compartamos.analytics.dim_cliente` AS
+CREATE OR REPLACE TABLE `analytics.dim_cliente` AS
 SELECT
     customer_id,
     TRIM(CONCAT(COALESCE(first_name, ''), ' ', COALESCE(last_name, ''))) AS nombre_completo,
@@ -32,4 +32,4 @@ SELECT
     loyalty_tier,
     registration_date,
     CURRENT_TIMESTAMP() AS analytics_updated_at
-FROM `prueba-tecnica-compartamos.stage.customers_stage`;
+FROM `stage.customers_stage`;

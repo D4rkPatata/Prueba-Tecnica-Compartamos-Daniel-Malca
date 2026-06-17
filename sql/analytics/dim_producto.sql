@@ -17,7 +17,7 @@
 -- active                BOOL       Si el producto está activo.
 -- analytics_updated_at  TIMESTAMP  Marca de tiempo de la carga analytics.
 -- =====================================================================
-CREATE OR REPLACE TABLE `prueba-tecnica-compartamos.analytics.dim_producto` AS
+CREATE OR REPLACE TABLE `analytics.dim_producto` AS
 SELECT
     product_id,
     product_name,
@@ -30,4 +30,4 @@ SELECT
     stock_units,
     active,
     CURRENT_TIMESTAMP() AS analytics_updated_at
-FROM `prueba-tecnica-compartamos.stage.products_stage`;
+FROM `stage.products_stage`;
