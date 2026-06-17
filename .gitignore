@@ -37,6 +37,8 @@ data_raw/
 *.csv
 *.parquet
 *.xlsx
+# resultados del examen SQL: sí se versionan
+!preguntas_sql/*.csv
 
 # ───────────── Entorno / Secrets ─────────────
 .env

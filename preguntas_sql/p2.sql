@@ -9,5 +9,6 @@ SELECT
     ROUND(SUM(f.net_amount_usd), 2) AS revenue_total
 FROM `prueba-tecnica-compartamos.analytics.fact_venta` f
 WHERE f.order_date IS NOT NULL
+  AND f.status = 'COMPLETED'
 GROUP BY f.anio, f.mes, f.product_category
 ORDER BY revenue_total DESC;
