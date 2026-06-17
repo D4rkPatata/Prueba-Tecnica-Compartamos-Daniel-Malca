@@ -20,6 +20,8 @@ from pathlib import Path
 # Permite importar los módulos que viven en src/
 sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
+import bq
+import config
 import ingest
 import stage
 import analytics
@@ -36,6 +38,12 @@ def main() -> int:
     print("\n" + "#" * 60)
     print("#  PIPELINE ETL  —  Prueba Técnica Compartamos")
     print("#" * 60)
+
+    # Preflight: valida credenciales y proyecto ANTES de empezar.
+    # Si falla, corta acá con un mensaje claro (no a mitad del pipeline).
+    print("\n>>> Verificando conexión a GCP...")
+    bq.get_client()
+    print(f"    OK: proyecto '{config.PROJECT_ID}' accesible")
 
     inicio = time.time()
     for nombre, etapa in ETAPAS:
