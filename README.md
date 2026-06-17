@@ -136,8 +136,8 @@ datos propio, se creó una **vista** en BigQuery de la que se alimenta el dashbo
 vista denormalizada (fact + dimensiones) al grano de pedido, de modo que Looker hace
 toda la agregación.
 
-Responde las preguntas de negocio: top 5 productos por ingresos, evolución mensual de
-ventas, ticket promedio por categoría y % de pedidos por estado.
+Responde las 3 preguntas de negocio: top 5 productos por ingresos, evolución mensual de
+ventas y % de pedidos por estado.
 
 ![Dashboard](docs/reporte.png)
 <!-- (captura del dashboard creado en Looker Studio) -->
