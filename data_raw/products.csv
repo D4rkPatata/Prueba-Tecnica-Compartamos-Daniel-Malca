@@ -1,0 +1,48 @@
+product_id,product_name,category,price_usd,cost_usd,stock_units,supplier,active
+2043,Juego de Mesa,Toys,841.55,579.97,,Proveedor C,FALSE
+2038,Base Maquillaje,Beauty,264.06,144.68,348,ProveedorA,false
+2014,Sudadera Hoodie,Clothing,192.73,92.67,,Proveedor C,0
+2015,Pantalon Cargo,Clothing,106.76,70.09,474,Proveedor C,false
+2013,Zapatos Running,Clothing,586.61,237.41,,proveedor_a,true
+2024,Colchoneta Yoga,Sports,822.91,346.31,,proveedor_a,True
+2040,Muneca Articulada,Toys,1164.71,756.04,70,,1
+2012,Vestido Floral,Clothing,215.17,91.61,13,proveedor_a,false
+2016,Licuadora Pro,Home & Kitchen,344.12,212.26,,proveedor_a,false
+2036,Shampoo Natural,Beauty,0,,,ProveedorA,false
+2030,El Quijote,Books,429.22,273.47,4,proveedor_a,true
+2033,Data Engineering,Books,596.92,260.04,,,True
+2001,Laptop Pro 15,Electronics,1102.08,670.73,,,1
+2022,Bicicleta MTB,Sports,239.75,141.03,288,ProveedorA,True
+2011,Chaqueta Deportiva,Clothing,-1424.71,,,ProveedorA,false
+2042,Rompecabezas 1000,Toys,1017.04,582.05,247,ProveedorB,1
+2002,Smartphone X12,Electronics,1222.13,747.52,323,ProveedorB,True
+2021,Plancha Vapor,Home & Kitchen,302.49,123.95,47,,false
+2019,Juego de Ollas ,Home & Kitchen,885.8,311.46,425,,true
+2018,Sarten Antiadherente ,Home & Kitchen,119.89,66.77,176,,0
+2020,Aspiradora Robot,Home & Kitchen,463.15,312.11,,ProveedorA,1
+2004,Tablet 10,Electronics,777.92,402.35,,Proveedor C,True
+2005,Smartwatch S3,Electronics,1300.04,454.74,,proveedor_a,1
+2034,Serum Vitamina C,Beauty,77.5,33.57,310,Proveedor C,false
+2036,Shampoo Natural ,Beauty,0,,,ProveedorA,false
+2028,Python para Todos,Books,1222.08,719.13,,proveedor_a,1
+2009,Camiseta Basica,Clothing,419.09,284.63,186,ProveedorA,true
+2018,Sarten Antiadherente,Home & Kitchen,119.89,66.77,176,,0
+2027,Cuerda Saltar,Sports,192.56,68.62,,ProveedorB,true
+2032,Atomic Habits,Books,440.02,211.27,319,ProveedorB,True
+2007,Monitor 27,Electronics,651.6,242.51,,Proveedor C,FALSE
+2031,Sapiens,Books,1324.86,802.26,291,Proveedor C,false
+2017,Cafetera Espresso,Home & Kitchen,203.36,66.36,,proveedor_a,false
+2029,Clean Code,Books,751.08,343.47,,ProveedorA,True
+2041,Auto Control Remoto,Toys,1497.2,674.83,,,1
+2006,Camara 4K,Electronics,1460.85,728.98,410,proveedor_a,True
+2039,LEGO Ciudad,Toys,1422.83,437.63,353,proveedor_a,false
+2003,Auriculares BT,Electronics,1076.91,339.0,453,Proveedor C,1
+2019,Juego de Ollas,Home & Kitchen,885.8,311.46,425,,true
+2010,Jeans Slim,Clothing,1274.52,605.74,,Proveedor C,FALSE
+2023,Pesas Ajustables,Sports,77.74,41.26,213,proveedor_a,0
+2026,Guantes Boxeo,Sports,1482.15,681.03,,ProveedorB,FALSE
+2025,Raqueta Tenis,Sports,1036.03,483.05,,Proveedor C,0
+2035,Crema Hidratante,Beauty,484.61,264.89,,,1
+2023,Pesas Ajustables ,Sports,77.74,41.26,213,proveedor_a,0
+2037,Perfume Floral,Beauty,717.14,439.72,369,,FALSE
+2008,Teclado Mecanico,electronics,907.91,522.87,,,FALSE

@@ -1,0 +1,52 @@
+# ───────────── Python ─────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Cachés / herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+uv.lock
+
+# ───────────── GCP / Credenciales (NO subir) ─────────────
+# Claves de service account y credenciales de aplicación
+*.json
+!**/schema*.json          # permite versionar esquemas si los tuvieras
+service-account*.json
+*-key.json
+credentials*.json
+application_default_credentials.json
+.config/gcloud/
+
+# ───────────── Datos ─────────────
+data_raw/
+*.csv
+*.parquet
+*.xlsx
+
+# ───────────── Entorno / Secrets ─────────────
+.env
+.env.*
+*.local
+
+# ───────────── IDE / SO ─────────────
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+desktop.ini
