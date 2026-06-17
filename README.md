@@ -139,7 +139,7 @@ toda la agregación.
 Responde las preguntas de negocio: top 5 productos por ingresos, evolución mensual de
 ventas, ticket promedio por categoría y % de pedidos por estado.
 
-![Dashboard](docs/dashboard.png)
+![Dashboard](docs/reporte.png)
 <!-- (captura del dashboard creado en Looker Studio) -->
 
 ---
